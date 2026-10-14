@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<SyntaxDefinition name="Luau" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2006">
+    <Keywords Set="Keyword">
+        <Word>and</Word>
+        <Word>break</Word>
+        <Word>do</Word>
+        <Word>else</Word>
+        <Word>elseif</Word>
+        <Word>end</Word>
+        <Word>false</Word>
+        <Word>for</Word>
+        <Word>function</Word>
+        <Word>if</Word>
+        <Word>in</Word>
+        <Word>local</Word>
+        <Word>nil</Word>
+        <Word>not</Word>
+        <Word>or</Word>
+        <Word>repeat</Word>
+        <Word>return</Word>
+        <Word>then</Word>
+        <Word>true</Word>
+        <Word>until</Word>
+        <Word>while</Word>
+    </Keywords>
+    <Keywords Set="Builtin">
+        <Word>print</Word>
+        <Word>warn</Word>
+        <Word>error</Word>
+        <Word>task own</Word>
+        <Word>wait</Word>
+        <Word>spawn</Word>
+        <Word>delay</Word>
+        <Word>tick</Word>
+        <Word>time</Word>
+        <Word>string</Word>
+        <Word>table</Word>
+        <Word>math</Word>
+        <Word>coroutine</Word>
+        <Word>game</Word>
+        <Word>workspace</Word>
+        <Word>script</Word>
+    </Keywords>
+    <Rule Set="Comment">
+        <Span>
+            <LineComment text="--" />
+        </Span>
+        <Span>
+            <BlockComment text="[[" end="]]" />
+        </Span>
+    </Rule>
+    <Rule Set="String">
+        <Span>
+            <String literal="&quot;" />
+        </Span>
+        <Span>
+            <String literal="'" />
+        </Span>
+        <Span>
+            <String literal="&quot;&quot;&quot;" />
+        </Span>
+        <Span>
+            <String literal="'''" />
+        </Span>
+    </Rule>
+    <Rule Set="Number">
+        <Span>
+            <Number />
+        </Span>
+    </Rule>
+</SyntaxDefinition>

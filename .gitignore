@@ -1,0 +1,22 @@
+# .NET / Visual Studio
+bin/
+obj/
+out/
+.vs/
+*.user
+*.suo
+*.useroscache
+*.sln.docstates
+
+# WPF / Material Design
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Roblox related
+*.rbxl
+*.rbxm
